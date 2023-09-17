@@ -1,0 +1,4 @@
+Table Name,Column Name,IndexName,IndexType,dimension
+students,id,octree1,octree,x
+students,first_name,octree1,octree,y
+students,last_name,octree1,octree,z

@@ -1,0 +1,14 @@
+Table Name,Column Name,Column Type,ClusteringKey,IndexName,IndexType,min,max
+courses,hours,java.lang.integer,false,null,null,1,24
+courses,date_added,java.util.date,true,null,null,1901-01-01,2020-12-31
+courses,course_id,java.lang.string,false,null,null,0000,9999
+courses,course_name,java.lang.string,false,null,null,aaaaaa,zzzzzz
+transcripts,gpa,java.lang.double,true,null,null,0.7,5.0
+transcripts,date_passed,java.util.date,false,null,null,1990-01-01,2020-12-31
+transcripts,course_name,java.lang.string,false,null,null,aaaaaa,zzzzzz
+transcripts,student_id,java.lang.string,false,null,null,43-0000,99-9999
+students,gpa,java.lang.double,false,null,null,0.7,5.0
+students,last_name,java.lang.string,false,octree1,octree,aaaaaa,zzzzzz
+students,first_name,java.lang.string,false,octree1,octree,aaaaaa,zzzzzz
+students,dob,java.util.date,false,null,null,1990-01-01,2000-12-31
+students,id,java.lang.string,true,octree1,octree,43-0000,99-9999
